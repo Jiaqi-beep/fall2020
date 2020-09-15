@@ -1,0 +1,15 @@
+<story>    ::= <sentence> <sentence> <sentence> the end .
+
+<sentence> ::= <subject> <verb> <object> .
+
+<subject>  ::= <article> <optional_adjective> <noun>
+
+<object>   ::= <subject>
+
+<article>  ::= the | a
+
+<noun>     ::= man | cow | car
+
+<verb>     ::= loved | missed | hated | killed
+
+<optional_adjective> ::= big | green | shiny | EPSILON
